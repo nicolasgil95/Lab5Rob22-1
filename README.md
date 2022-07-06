@@ -8,7 +8,13 @@ Jorge Luis Reina Jara
 
 ##Task 1
 
-##Task 2
+
 
 This is the video of the implementation of the practice with real robots
 [Video](https://youtu.be/l5Zzl4wflTc) I/O using LAB Robot
+
+##Task 2
+In this part of the practice, an electro-pneumatic gripper has been used, which is enabled to grab an object that will be on the floor.
+
+
+## Conclusions
