@@ -18,3 +18,5 @@ In this part of the practice, an electro-pneumatic gripper has been used, which 
 
 
 ## Conclusions
+- At the time of doing the tests with the real robots, it had to be verified in the control panel where the cables were connected to the buttons and selectors When a  specific LED lights up. Since, on occasions, they had faults or were disconnected.
+
