@@ -10,4 +10,5 @@ Jorge Luis Reina Jara
 
 ##Task 2
 
+This is the video of the implementation of the practice with real robots
 [Video](https://youtu.be/l5Zzl4wflTc) I/O using LAB Robot
