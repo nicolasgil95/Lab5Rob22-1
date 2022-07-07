@@ -28,6 +28,8 @@ This is the [video](https://youtu.be/l5Zzl4wflTc) of the implementation of the p
 In this part of the practice, an electro-pneumatic gripper has been used, which is enabled to grab an object that will be on the floor.
 This is the [video](https://youtu.be/VUhNDPTJC58)
 
+<a href="https://ibb.co/z8xKPct"><img src="https://i.ibb.co/7gC7rc0/Screenshot-from-2022-07-06-21-19-54.png" alt="Screenshot-from-2022-07-06-21-19-54" border="0"></a>
+
 This is the [video](https://youtu.be/VbusJI-J9fM)
 This is the [video](https://youtu.be/MAuK2V5rwKk)
 
