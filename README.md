@@ -5,8 +5,12 @@ By: Jhon Brandol Muñoz Romero, Nicolas Gil Rojas and
 Jorge Luis Reina Jara
 
 ## Task to develop
+In this laboratory number 5, it will be described step by step what was done to reach the two proposed tasks.
 
 ## Task 1
+
+for the first task, laboratory number four has been used to add 2 digital inputs (DI 01 and DI 02),therefore, the first routine that the robot must do when the first button located at the bottom and to the left of the button panel is pressed is to write the initials of the names of each member of the group in the XY plane.
+
 When the first task that has been chosen is finished, the flexpendant shows a message to execute the next task through the input button.you can see in the following image:
 
 
