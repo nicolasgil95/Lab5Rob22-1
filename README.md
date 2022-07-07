@@ -28,6 +28,9 @@ This is the [video](https://youtu.be/l5Zzl4wflTc) of the implementation of the p
 In this part of the practice, an electro-pneumatic gripper has been used, which is enabled to grab an object that will be on the floor.
 This is the [video](https://youtu.be/VUhNDPTJC58)
 
+This is the [video](https://youtu.be/VbusJI-J9fM)
+This is the [video](https://youtu.be/MAuK2V5rwKk)
+
 ## Conclusions
 - At the time of doing the tests with the real robots, it had to be verified in the control panel where the cables were connected to the buttons and selectors When a  specific LED lights up. Since, on occasions, they had faults or were disconnected.
 
