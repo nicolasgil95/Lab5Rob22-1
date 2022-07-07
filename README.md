@@ -39,7 +39,9 @@ On the other hand, the process in general of the robot which receives the signal
 
 The position in which it is easier for the robot to pick up the piece is from above, which means that it does not crash with the surface. So when you want to put it on the shelf, you have to change its orientation, that's the second operation. The following link shows how the robot changes orientation [video](https://youtu.be/VbusJI-J9fM)
 
-Now with the new fastening orientation, which is from the front, it is left in the position indicated by another digital signal, since there are 4 positions in the wooden stand. This is the [video](https://youtu.be/MAuK2V5rwKk)
+Now with the new fastening orientation, which is from the front, it is left in the position indicated by another digital signal, since there are 4 positions in the wooden stand which can be seen in the following image. This is the [video](https://youtu.be/MAuK2V5rwKk)
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/mJM3dvR/Screenshot-from-2022-07-06-21-50-53.png" alt="Screenshot-from-2022-07-06-21-50-53" border="0"></a>
 
 ## Conclusions
 - At the time of doing the tests with the real robots, it had to be verified in the control panel where the cables were connected to the buttons and selectors When a  specific LED lights up. Since, on occasions, they had faults or were disconnected.
