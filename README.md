@@ -7,6 +7,7 @@ Jorge Luis Reina Jara
 ## Task to develop
 
 ## Task 1
+When the first task that has been chosen is finished, the flexpendant shows a message to execute the next task through the input button.
 
 <a href="https://ibb.co/BPZcqJj"><img src="https://i.ibb.co/hMWLDNH/Screenshot-from-2022-07-06-19-11-45.png" alt="Screenshot-from-2022-07-06-19-11-45" border="0"></a>
 
