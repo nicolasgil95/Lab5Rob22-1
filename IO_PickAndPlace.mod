@@ -1,6 +1,6 @@
 MODULE Module1
         PERS tooldata Servo:=[TRUE,[[0,0,114.2],[1,0,0,0]],[0.215,[8.7,12.3,49.2],[1,0,0,0],0.00021,0.00024,0.00009]];
-    TASK PERS wobjdata RackWorkObject:=[FALSE,TRUE,"",[[280,-400,25],[0.707106781,0,0,-0.707106781]],[[0,0,0],[1,0,0,0]]];
+    TASK PERS wobjdata RackWorkObject:=[FALSE,TRUE,"",[[280,-400,25],[0.707107,0,0,-0.707107]],[[0,0,0],[1,0,0,0]]];
     TASK PERS wobjdata PiecesWorkObject:=[FALSE,TRUE,"",[[380,200,25],[1,0,0,0]],[[0,0,0],[1,0,0,0]]];
     CONST robtarget Picking_Home:=[[225.191752358,-200,597.4],[0.5,0,0.866025404,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget PrismPicking_10:=[[0,200,80],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
@@ -26,7 +26,10 @@ MODULE Module1
 
     
     PROC main()
-        
+        WaitDI DI_01, 1;
+        HexPrismPickingPath;
+        RegrippingOperationPath;
+        Rack3rdPlacingPath;
     ENDPROC
     PROC PrismPickingPath()
         MoveJ Picking_Home,v200,z10,Servo\WObj:=PiecesWorkObject;
@@ -39,6 +42,9 @@ MODULE Module1
         MoveJ Picking_Home,v200,z10,Servo\WObj:=PiecesWorkObject;
         MoveJ HexPrismPicking_10,v200,z10,Servo\WObj:=PiecesWorkObject;
         MoveL HexPrismPicking_20,v20,z1,Servo\WObj:=PiecesWorkObject;
+        setDO DO_01, 1;
+        WaitTime 1;
+        SetDO DO_01, 0;
         MoveL HexPrismPicking_10,v20,z1,Servo\WObj:=PiecesWorkObject;
         MoveJ Picking_Home,v200,z10,Servo\WObj:=PiecesWorkObject;
     ENDPROC
@@ -64,6 +70,9 @@ MODULE Module1
     PROC Rack3rdPlacingPath()
         MoveJ Rack3rdPosition_10,v200,z10,Servo\WObj:=RackWorkObject;
         MoveL Rack3rdPosition_20,v20,z1,Servo\WObj:=RackWorkObject;
+        SetDO DO_02, 1;
+        WaitTime 1;
+        SetDO DO_02, 0;
         MoveL Rack3rdPosition_10,v20,z1,Servo\WObj:=RackWorkObject;
         MoveJ Placing_Home,v200,z10,Servo\WObj:=RackWorkObject;
     ENDPROC
@@ -77,10 +86,16 @@ MODULE Module1
         MoveJ Placing_Home,v200,z10,Servo\WObj:=RackWorkObject;
         MoveJ RegrippingOperation_10,v200,z10,Servo\WObj:=RackWorkObject;
         MoveL RegrippingOperation_20,v20,z1,Servo\WObj:=RackWorkObject;
+        SetDO DO_02, 1;
+        WaitTime 1;
+        SetDO DO_02, 0;
         MoveL RegrippingOperation_10,v20,z1,Servo\WObj:=RackWorkObject;
         MoveJ RegrippingOperation_30,v200,z10,Servo\WObj:=RackWorkObject;
         MoveJ RegrippingOperation_40,v200,z10,Servo\WObj:=RackWorkObject;
         MoveL RegrippingOperation_50,v20,z1,Servo\WObj:=RackWorkObject;
+        SetDO DO_01, 1;
+        WaitTime 1;
+        SetDO DO_01, 0;
         MoveL RegrippingOperation_40,v20,z1,Servo\WObj:=RackWorkObject;
     ENDPROC
 ENDMODULE
