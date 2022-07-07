@@ -1,6 +1,6 @@
 MODULE Module1
         PERS tooldata Servo:=[TRUE,[[0,0,114.2],[1,0,0,0]],[0.215,[8.7,12.3,49.2],[1,0,0,0],0.00021,0.00024,0.00009]];
-    TASK PERS wobjdata RackWorkObject:=[FALSE,TRUE,"",[[280,-400,25],[0.707107,0,0,-0.707107]],[[0,0,0],[1,0,0,0]]];
+    TASK PERS wobjdata RackWorkObject:=[FALSE,TRUE,"",[[280,-400,25],[0.707106781,0,0,-0.707106781]],[[0,0,0],[1,0,0,0]]];
     TASK PERS wobjdata PiecesWorkObject:=[FALSE,TRUE,"",[[380,200,25],[1,0,0,0]],[[0,0,0],[1,0,0,0]]];
     CONST robtarget Picking_Home:=[[225.191752358,-200,597.4],[0.5,0,0.866025404,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget PrismPicking_10:=[[0,200,80],[0,0,1,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
@@ -23,29 +23,10 @@ MODULE Module1
     CONST robtarget RegrippingOperation_30:=[[-30,150,380],[0.27059805,-0.653281482,0.653281482,-0.27059805],[-1,-2,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget RegrippingOperation_40:=[[-30,150,325],[0.5,-0.5,0.5,-0.5],[-1,-2,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget RegrippingOperation_50:=[[20,150,325],[0.5,-0.5,0.5,-0.5],[-1,-2,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
-!***********************************************************
-    !
-    ! Module:  Module1
-    !
-    ! Description:
-    !   <Insert description here>
-    !
-    ! Author: jorge
-    !
-    ! Version: 1.0
-    !
-    !***********************************************************
+
     
-    
-    !***********************************************************
-    !
-    ! Procedure main
-    !
-    !   This is the entry point of your program
-    !
-    !***********************************************************
     PROC main()
-        !Add your code here
+        
     ENDPROC
     PROC PrismPickingPath()
         MoveJ Picking_Home,v200,z10,Servo\WObj:=PiecesWorkObject;
