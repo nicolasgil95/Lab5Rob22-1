@@ -37,7 +37,7 @@ On the other hand, the process in general of the robot which receives the signal
 <a href="https://ibb.co/z8xKPct"><img src="https://i.ibb.co/7gC7rc0/Screenshot-from-2022-07-06-21-19-54.png" alt="Screenshot-from-2022-07-06-21-19-54" border="0"></a>
 
 
-The position in which it is easier for the robot to pick up the piece is from above, which means that it does not crash with the surface. So when you want to put it on the shelf, you have to change its orientation, that's the second operation. This is the [video](https://youtu.be/VbusJI-J9fM)
+The position in which it is easier for the robot to pick up the piece is from above, which means that it does not crash with the surface. So when you want to put it on the shelf, you have to change its orientation, that's the second operation. TThe following link shows how the robot changes orientation [video](https://youtu.be/VbusJI-J9fM)
 
 
 This is the [video](https://youtu.be/MAuK2V5rwKk)
