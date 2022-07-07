@@ -16,7 +16,7 @@ Using as base the previous lab we modified the code to use as enabling signals s
 
 The simulation in RobotStudio is available on this [link](https://youtu.be/4ZMntHyAFSg).
 
-Using the robots we ound that, first on the task created con only be one file containing the main procedure as it will find it ambiguous, and second, as we didn't had the I/O inputs named equally to the ones created on the controller the RAPID code had to be updated to match the names on the inputs we'll be using. 
+Using the robots we found that, first on the task created con only be one file containing the main procedure as it will find it ambiguous, and second, as we didn't had the I/O inputs named equally to the ones created on the controller the RAPID code had to be updated to match the names on the inputs we'll be using. 
 
 This is the [video](https://youtu.be/l5Zzl4wflTc) of the implementation of the practice with real robots. Sadly, because the short time we had to test the code, the inclined surface was put too far from where it should be and the robot didn't wrote the letters.
 
