@@ -8,7 +8,7 @@ Jorge Luis Reina Jara
 
 ## Task 1
 
-
+<a href="https://ibb.co/BPZcqJj"><img src="https://i.ibb.co/hMWLDNH/Screenshot-from-2022-07-06-19-11-45.png" alt="Screenshot-from-2022-07-06-19-11-45" border="0"></a>
 
 This is the video of the implementation of the practice with real robots
 [Video](https://youtu.be/l5Zzl4wflTc) I/O using LAB Robot
