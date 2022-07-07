@@ -45,4 +45,6 @@ Now with the new fastening orientation, which is from the front, it is left in t
 
 ## Conclusions
 - At the time of doing the tests with the real robots, it had to be verified in the control panel where the cables were connected to the buttons and selectors When a  specific LED lights up. Since, on occasions, they had faults or were disconnected.
+- It is important to take into account the final position of the object, since the robot has to pick up with a shape and in the end it has to change orientation for ease.
+
 
