@@ -30,11 +30,15 @@ In this part of the practice, an electro-pneumatic gripper has been used, which 
 
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/XYcJSj6/Screenshot-from-2022-07-06-21-24-56.png" alt="Screenshot-from-2022-07-06-21-24-56" border="0"></a>
+
+
 On the other hand, the process in general of the robot which receives the signal for which piece to pick up. Therefore, there are three options, a cylinder, a hexagonal prism and a square prism. This is the [video](https://youtu.be/VUhNDPTJC58)
 
 <a href="https://ibb.co/z8xKPct"><img src="https://i.ibb.co/7gC7rc0/Screenshot-from-2022-07-06-21-19-54.png" alt="Screenshot-from-2022-07-06-21-19-54" border="0"></a>
 
 This is the [video](https://youtu.be/VbusJI-J9fM)
+
+
 This is the [video](https://youtu.be/MAuK2V5rwKk)
 
 ## Conclusions
